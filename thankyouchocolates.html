@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Thankyou Chocolates – your premier destination for luxurious and artisanal chocolate products.">
+    <meta name="keywords" content="chocolate, luxury chocolates, artisanal chocolate, chocolate shop">
+    <title>Thankyou Chocolates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .header, .footer {
+            background-color: #6d4c41; /* Rich brown color */
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #8d6e63; /* Lighter brown color */
+            padding: 10px 0;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            background-color: #d7ccc8; /* Light beige color */
+        }
+        .hero {
+            background-image: url('hero-image.jpg'); /* Replace with actual image URL */
+            background-size: cover;
+            background-position: center;
+            height: 300px;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .hero h2 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        .hero button {
+            background-color: #d7ccc8; /* Light beige color */
+            border: none;
+            color: #6d4c41; /* Rich brown color */
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            margin: 10px 0;
+        }
+        .hero button:hover {
+            background-color: #bcaaa4; /* Darker beige color */
+        }
+        .container {
+            padding: 20px;
+        }
+        .product {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .product img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 8px;
+        }
+        .product-details {
+            flex: 1;
+            margin-left: 20px;
+        }
+        .product h3 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .product p {
+            margin: 10px 0;
+        }
+        .product button {
+            background-color: #d7ccc8; /* Light beige color */
+            border: none;
+            color: #6d4c41; /* Rich brown color */
+            padding: 10px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .product button:hover {
+            background-color: #bcaaa4; /* Darker beige color */
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Thankyou Chocolates</h1>
+    </header>
+    <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">Shop</a>
+        <a href="#">About Us</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+        <input type="text" placeholder="Search...">
+    </nav>
+    <section class="hero">
+        <h2>Indulge in Our Luxurious Chocolates</h2>
+        <button onclick="location.href='#shop'">Shop Now</button>
+    </section>
+    <div class="container" id="shop">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1"> <!-- Replace with actual image URL -->
+            <div class="product-details">
+                <h3>Signature Dark Chocolate</h3>
+                <p>Rich and smooth dark chocolate made with the finest cocoa beans.</p>
+                <p>$12.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2"> <!-- Replace with actual image URL -->
+            <div class="product-details">
+                <h3>Milk Chocolate Truffles</h3>
+                <p>Decadent milk chocolate truffles with a creamy filling.</p>
+                <p>$15.99</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+        <!-- Add more product sections as needed -->
+    </div>
+    <footer class="footer">
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Return Policy</a>
+        <div>
+            <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+        </div>
+        <form>
+            <input type="email" placeholder="Subscribe to our newsletter">
+            <button type="submit">Subscribe</button>
+        </form>
+    </footer>
+</body>
+</html>
